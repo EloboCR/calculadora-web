@@ -1,0 +1,73 @@
+:root {
+  /* Color Palette */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-active: #1e40af;
+  
+  --color-neutral-bg: #f8fafc;
+  --color-neutral-hover: #f1f5f9;
+  --color-neutral-active: #e2e8f0;
+  --color-neutral-text: #0f172a;
+  
+  --color-function-bg: #e2e8f0;
+  --color-function-hover: #cbd5e1;
+  --color-function-active: #94a3b8;
+  --color-function-text: #1e293b;
+
+  --color-equals-bg: #2563eb;
+  --color-equals-hover: #1d4ed8;
+  --color-equals-text: #ffffff;
+
+  --color-danger: #ef4444;
+  --color-danger-text: #ffffff;
+
+  --color-display-bg: #090d16;
+  --color-display-text: #ffffff;
+  --color-display-sub: #64748b;
+
+  --color-card-bg: rgba(255, 255, 255, 0.92);
+  --color-border: rgba(226, 232, 240, 0.8);
+  --focus-outline: #2563eb;
+
+  /* Typography */
+  --font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* Sizing & Borders */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --touch-target: 52px;
+
+  /* Shadows */
+  --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
+  --shadow-btn: 0 2px 4px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-btn-pressed: inset 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-card-bg: rgba(18, 24, 38, 0.85);
+    --color-border: rgba(255, 255, 255, 0.08);
+    --color-neutral-bg: #1e293b;
+    --color-neutral-hover: #334155;
+    --color-neutral-active: #475569;
+    --color-neutral-text: #f8fafc;
+    
+    --color-function-bg: #334155;
+    --color-function-hover: #475569;
+    --color-function-active: #64748b;
+    --color-function-text: #e2e8f0;
+    
+    --shadow-card: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.1);
+  }
+}
