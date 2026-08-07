@@ -19,3 +19,6 @@ build/
 *.njsproj
 *.sln
 *.sw?
+
+# Vite cache
+.vite/
